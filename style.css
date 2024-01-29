@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;    
+    background-color: #0C2D57;
+    color: white;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+}
+
+.margin_introduction {
+    margin: 25px;
+    width: 600px;
+    line-height: 26px;
+}
+
+h1, h2  {
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 40px;
+}
+
+.aphorism {
+    font-family: 'Caveat', cursive;
+    font-size: 35px ;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.actor_resize {
+    width: 350px; 
+    border-radius: 10%;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.actor_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.name_actor {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: white;
+    color: #0C2D57;
+    padding: 7px;
+    border-radius: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.margin_best_actor {
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+footer {
+    background-color: white;
+    color: #0C2D57;
+    text-align: center;
+    padding: 25px;
+}
